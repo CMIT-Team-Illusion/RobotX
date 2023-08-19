@@ -8,8 +8,11 @@ The Dockerfile and supporting material were originally created from the minimal 
 Until one of the team members thinks of a better way, we will just stick with the process supplied by the contest host.
 
 export USERNAME=<username on Docker>
+
 export IMAGE_NAME=<name of this image>
+
 export TAG=<version of this image>
+
 docker build --tag ${USERNAME}/${IMAGE_NAME}:${TAG} 
 
 
